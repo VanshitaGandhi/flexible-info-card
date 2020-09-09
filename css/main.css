@@ -11,6 +11,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   font: normal 100%/1.5 sans-serif;
+  font: Open sans;
 }
 
 *, *::before, *::after {
@@ -26,11 +27,15 @@ img {
   width: 100%;
 }
 
+h2 {
+  text-align: center;
+}
+
 li {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 1.5 rem;
+  margin: 1.5rem;
 
 }
 
@@ -45,4 +50,11 @@ hgroup {
 
 p {
   width: 24rem;
+}
+
+a {
+  background-color: #444;
+  color: #fff;
+  text-decoration: none;
+  padding: .5rem 1rem .6rem;
 }
